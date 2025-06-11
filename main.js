@@ -1,10 +1,14 @@
 import "./style.css";
+import Header from "./components/header/header";
+import Main from "./components/main/main";
+import Footer from "./components/footer/footer";
 
-const initBuild = () => {
-  footer();
+const pageBuild = () => {
+  Header();
+  Main();
 };
 
-initBuild();
+pageBuild();
 
 /*
 param	            Description

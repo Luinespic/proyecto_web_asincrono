@@ -1,0 +1,50 @@
+.icon {
+  height: 24px;
+  width: 24px;
+}
+
+.pinterest {
+  fill: #e60023;
+}
+
+li {
+  position: relative;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+li:hover {
+  background-color: #f0f0eb;
+  cursor: pointer;
+}
+
+.label {
+  position: absolute;
+  left: 100%;
+  margin-left: 10px;
+  background-color: black;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+li:hover .label {
+  opacity: 1;
+}
+
+nav {
+  height: 100vh;
+}
+
+ul {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-around;
+}
