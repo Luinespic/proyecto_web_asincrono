@@ -7,13 +7,13 @@
   fill: #e60023;
 }
 
-li {
+.icons {
   position: relative;
   padding: 10px;
   border-radius: 12px;
 }
 
-li:hover {
+.icons:hover {
   background-color: #f0f0eb;
   cursor: pointer;
 }
@@ -33,7 +33,7 @@ li:hover {
   transition: opacity 0.3s ease;
 }
 
-li:hover .label {
+.icons:hover .label {
   opacity: 1;
 }
 
@@ -41,7 +41,7 @@ nav {
   height: 100vh;
 }
 
-ul {
+#icons-list {
   padding-top: 30px;
   display: flex;
   flex-direction: column;

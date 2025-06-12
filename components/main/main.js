@@ -9,7 +9,9 @@ const template = () => `
       <input type="text" placeholder="Buscar" />
     </div>
   </section>
-  <section id="pictures-wrapper">
+  <section id="pictures-section">
+    <ul id="pictures-wrapper">
+    </ul>
   </section> 
 `;
 
