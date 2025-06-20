@@ -10,11 +10,11 @@ const template = () => `
         <span class="label">Inicio</span>
       </li>
       <li class="icons">
-        <img alt="home" class="icon" src="assets/images/homeIcon.webp"/>
+        <img alt="home" class="icon" src="./assets/images/homeIcon.webp"/>
         <span class="label">Inicio</span>
       </li>
       <li class="icons">
-        <img alt="home" class="icon" src="assets/images/exploreIcon.png"/>
+        <img alt="home" class="icon" src="./assets/images/exploreIcon.png"/>
         <span class="label">Explorar</span>
       </li>
     </ul>
