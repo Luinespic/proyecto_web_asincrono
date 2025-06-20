@@ -1,6 +1,6 @@
 import "./header.css";
-import homeIcon from "./assets/images/homeIcon.webp";
-import exploreIcon from "./assets/images/exploreIcon.png";
+import homeIcon from "../../assets/images/homeIcon.webp";
+import exploreIcon from "../../assets/images/exploreIcon.png";
 
 const template = () => `
   <nav>
