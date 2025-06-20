@@ -1,4 +1,6 @@
 import "./header.css";
+import homeIcon from "./assets/images/homeIcon.webp";
+import exploreIcon from "./assets/images/exploreIcon.png";
 
 const template = () => `
   <nav>
@@ -10,11 +12,11 @@ const template = () => `
         <span class="label">Inicio</span>
       </li>
       <li class="icons">
-        <img alt="home" class="icon" src="./assets/images/homeIcon.webp"/>
+        <img alt="home" class="icon" src="${homeIcon}"/>
         <span class="label">Inicio</span>
       </li>
       <li class="icons">
-        <img alt="home" class="icon" src="./assets/images/exploreIcon.png"/>
+        <img alt="home" class="icon" src="${exploreIcon}"/>
         <span class="label">Explorar</span>
       </li>
     </ul>
