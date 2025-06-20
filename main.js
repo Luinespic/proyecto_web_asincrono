@@ -1,6 +1,6 @@
 import "./style.css";
 import Header from "./components/Header/header";
-import Main from "./Components/Main/main";
+import Main from "./components/Main/main";
 
 let currentKeyword = "dog";
 let currentPage = 1;
